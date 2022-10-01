@@ -1,13 +1,13 @@
 /*rules*/
 *{
     box-sizing: border-box;
-    /* border: 1px solid black; */
+   
 }
 body{
     
     margin: 0px;
     overflow-x: hidden;
-    /* border: 3px solid red; */
+   
  }  
 :root{
     --maincolor-color:rgb(0 199 252)
@@ -189,10 +189,7 @@ body{
         height: 1px;
         background-color: black;
         position: absolute;
-        top: 75px;
-        
-
-
+        top: 85px;
     }
     .services h2::after{
         content: "";
@@ -200,12 +197,10 @@ body{
         height: 20px;
         background-color: white;
         position: absolute;
-        top: 63px;
+        top: 74px;
         border-radius: 50%;
         border: 1px solid;
-        right: 49%;
-
-
+        right: 45%;
     }
     .services p{
         text-align: center;
@@ -244,8 +239,8 @@ body{
         background-size: cover;
         display: grid;
         grid-template-rows: 30% 70%;
-        height: 882px;
-        margin-top: 1951px;
+        height: 900px;
+        margin-top: 2200px;
     }
     .show::before{
         content: "";
@@ -310,7 +305,7 @@ body{
         height: 1px;
         background-color: black;
         position: absolute;
-        top: 75px;
+        top: 91px;
         
 
 
@@ -321,10 +316,10 @@ body{
         height: 20px;
         background-color: white;
         position: absolute;
-        top: 63px;
+        top: 79px;
         border-radius: 50%;
         border: 1px solid;
-        right: 49%;
+        right: 47%;
 
 
     }
@@ -333,11 +328,12 @@ body{
         color: #0000009c;
         letter-spacing: 1px;
         line-height: 2;
+        margin-top: 89px;
     }
     .portfolio ul{
         position: absolute;
         margin-top: 35px;
-        margin-left: -49px;
+        margin-left: -77px
     }
     .portfolio ul .elactive{
         background-color: rgb(0 199 252 / 56%);
@@ -477,7 +473,7 @@ body{
         height: 1px;
         background-color: black;
         position: absolute;
-        top: 75px;
+        top: 91px;
         
 
 
@@ -488,7 +484,7 @@ body{
         height: 20px;
         background-color: white;
         position: absolute;
-        top: 63px;
+        top: 81px;
         border-radius: 50%;
         border: 1px solid;
         right: 45%;
@@ -500,6 +496,7 @@ body{
         color: #0000009c;
         letter-spacing: 1px;
         line-height: 2;
+        margin-top: 80px;
     }
     .about .abocontent{
         position: relative;
@@ -579,7 +576,7 @@ body{
         display: grid;
         position: relative;
         grid-template-rows: 50% 50%;
-        margin-top: 1500px;
+        margin-top: 1600px;
         margin-left: -22px;
     }
     .skilcontent .testimonials h3,.skilcontent .skills h3{
@@ -646,7 +643,7 @@ body{
     }
     .skilcontent .skills .myskills{
         
-       
+        margin-right: 28px;
     }
     .skilcontent .skills .b1div,.skilcontent .skills .b2div,.skilcontent .skills .b3div,.skilcontent .skills .b4div{
         
@@ -755,7 +752,6 @@ body{
     }
     .wast{
         width: 100%;
-        height: 370px;
         background-image: url(./imges/hia2.jfif);
         text-align: center;
         padding: 29px;
@@ -780,21 +776,22 @@ body{
     /*start pricing*/
     .container .pricing{
         position: relative;
-        margin-top: 200px;
+        margin-top: 250px;
     }
     .container .pricing h2{
         text-align: center;
         font-size: 50px;
         text-transform: capitalize;
         letter-spacing: 2px;
+        margin-bottom: 77px;
     }
     .container .pricing h2::before{
         content: "";
-        width: 200px;
+        width: 235px;
         height: 1px;
         background-color: black;
         position: absolute;
-        top: 75px;
+        top: 93px;
         
 
 
@@ -805,10 +802,10 @@ body{
         height: 20px;
         background-color: white;
         position: absolute;
-        top: 63px;
+        top: 80px;
         border-radius: 50%;
         border: 1px solid;
-        right: 49%;
+        right: 45%;
 
 
     }
@@ -869,8 +866,8 @@ body{
         width: 150px;
     }
     .container .pricing .pricontent .pri1,.container .pricing .pricontent .pri2,.container .pricing .pricontent .pri3,.container .pricing .pricontent .pri4{
-        background-color: #fcfcfc;
-        margin-bottom: 99px;
+        background-color: #9b8585bf;
+        margin-bottom: 114px;
     }
     .container .pricing .pricontent  .a , .b, .c{
         border-top: 1px solid var(--maincolor-color);
@@ -906,7 +903,7 @@ body{
     }
     .fada{
         position: relative;
-        margin-top: 2264px;
+        margin-top: 2500px;
         display: grid;
         grid-template-rows: 30% 70%;
         padding: 100px;
@@ -968,6 +965,8 @@ body{
         font-size: 50px;
         text-transform: capitalize;
         letter-spacing: 2px;
+        white-space: nowrap;
+        margin-bottom: 88px;
     }
     .container .contactus h2::before{
         content: "";
@@ -975,7 +974,7 @@ body{
         height: 1px;
         background-color: black;
         position: absolute;
-        top: 75px;
+        top: 94px;
         
 
 
@@ -986,10 +985,10 @@ body{
         height: 20px;
         background-color: white;
         position: absolute;
-        top: 63px;
+        top: 82px;
         border-radius: 50%;
         border: 1px solid;
-        right: 49%;
+        right: 45%;
 
 
     }
