@@ -258,7 +258,7 @@ body{
         right: 0;
         bottom: 0;
         width: 70%;
-        height: 50%;
+        height: 55%;
         top: 15%;
         transform: translateY(260px);
     }
@@ -301,7 +301,7 @@ body{
     }
     .container .portfolio h2::before{
         content: "";
-        width: 200px;
+        width: 215px;
         height: 1px;
         background-color: black;
         position: absolute;
@@ -638,7 +638,7 @@ body{
         background-color: var(--maincolor-color);
     }
     .skilcontent .skills{
-     
+        margin-top: 30px;
        
     }
     .skilcontent .skills .myskills{
